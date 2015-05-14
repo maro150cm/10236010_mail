@@ -1,0 +1,8 @@
+Email test
+<br /><br />
+<%= form_tag('/calc') do %>
+  Name:<%= text_field_tag :name %><br /><br />
+  Email:<%= text_field_tag :email %><br /><br />
+  Note:<%= text_area_tag :note %><br /><br />
+  <%= submit_tag 'mail to' %>
+<% end %>
